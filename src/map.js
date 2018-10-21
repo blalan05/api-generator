@@ -551,7 +551,7 @@ module.exports = {
         'default': 'false',
         'source': null
       }
-    ].concat(sharedGridProps)
+    ]
   },
   'v-footer': {
     slots: ['default']
