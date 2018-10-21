@@ -779,28 +779,16 @@ Vue.component('v-content', {
 Vue.component('v-flex', {
   props: {
     '(size)(1-12)': Boolean,
-    alignBaseline: Boolean,
-    alignCenter: Boolean,
-    alignContentCenter: Boolean,
-    alignContentEnd: Boolean,
-    alignContentSpaceAround: Boolean,
-    alignContentSpaceBetween: Boolean,
-    alignContentStart: Boolean,
-    alignEnd: Boolean,
-    alignStart: Boolean,
-    'd-{type}': Boolean,
-    fillHeight: Boolean,
+    alignSelfBaseline: Boolean,
+    alignSelfCenter: Boolean,
+    alignSelfEnd: Boolean,
+    alignSelfStart: Boolean,
+    grow: Boolean,
     id: String,
-    justifyCenter: Boolean,
-    justifyEnd: Boolean,
-    justifySpaceAround: Boolean,
-    justifySpaceBetween: Boolean,
-    justifyStart: Boolean,
     'offset-(size)(0-12)': Boolean,
     'order-(size)(0-12)': Boolean,
-    reverse: Boolean,
-    tag: String,
-    wrap: Boolean
+    shrink: Boolean,
+    tag: String
   }
 })
 // noinspection JSUnresolvedFunction

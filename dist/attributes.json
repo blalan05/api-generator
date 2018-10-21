@@ -2347,75 +2347,27 @@
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-baseline": {
+  "v-flex/align-self-start": {
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-center": {
+  "v-flex/align-self-end": {
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-content-center": {
+  "v-flex/align-self-center": {
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-content-end": {
+  "v-flex/align-self-baseline": {
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-content-space-around": {
+  "v-flex/grow": {
     "type": "boolean",
     "description": ""
   },
-  "v-flex/align-content-space-between": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/align-content-start": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/align-end": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/align-start": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/d-{type}": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/fill-height": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/justify-center": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/justify-end": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/justify-space-around": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/justify-space-between": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/justify-start": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/reverse": {
-    "type": "boolean",
-    "description": ""
-  },
-  "v-flex/wrap": {
+  "v-flex/shrink": {
     "type": "boolean",
     "description": ""
   },

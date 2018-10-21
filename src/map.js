@@ -550,6 +550,42 @@ module.exports = {
         'type': 'Boolean',
         'default': 'false',
         'source': null
+      },
+      {
+        'name': 'alignSelfStart',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
+      },
+      {
+        'name': 'alignSelfEnd',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
+      },
+      {
+        'name': 'alignSelfCenter',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
+      },
+      {
+        'name': 'alignSelfBaseline',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
+      },
+      {
+        'name': 'grow',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
+      },
+      {
+        'name': 'shrink',
+        'type': 'Boolean',
+        'default': 'false',
+        'source': null
       }
     ]
   },

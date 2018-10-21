@@ -4546,105 +4546,39 @@ module.exports = {
         "source": null
       },
       {
-        "name": "alignBaseline",
+        "name": "alignSelfBaseline",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
-        "name": "alignCenter",
+        "name": "alignSelfCenter",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
-        "name": "alignContentCenter",
+        "name": "alignSelfEnd",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
-        "name": "alignContentEnd",
+        "name": "alignSelfStart",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
-        "name": "alignContentSpaceAround",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "alignContentSpaceBetween",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "alignContentStart",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "alignEnd",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "alignStart",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "d-{type}",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "fillHeight",
+        "name": "grow",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
         "name": "id",
-        "type": "String",
+        "type": "string",
         "default": "undefined",
-        "source": null
-      },
-      {
-        "name": "justifyCenter",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "justifyEnd",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "justifySpaceAround",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "justifySpaceBetween",
-        "type": "Boolean",
-        "default": "false",
-        "source": null
-      },
-      {
-        "name": "justifyStart",
-        "type": "Boolean",
-        "default": "false",
         "source": null
       },
       {
@@ -4660,21 +4594,15 @@ module.exports = {
         "source": null
       },
       {
-        "name": "reverse",
+        "name": "shrink",
         "type": "Boolean",
         "default": "false",
         "source": null
       },
       {
         "name": "tag",
-        "type": "String",
-        "default": "div",
-        "source": null
-      },
-      {
-        "name": "wrap",
-        "type": "Boolean",
-        "default": "false",
+        "type": "string",
+        "default": "'div'",
         "source": null
       }
     ],
